@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.example.grpcConnection";
+
+service MongoDBConnection {
+  rpc ExecuteCommand(stream CommandRequest) returns ( stream CommandExecutionResult) {}
+}
+
+message CommandRequest {
+  string command = 1;
+}
+
+message CommandExecutionResult {
+  int32 statusCode = 1;
+  string msg = 2;
+}

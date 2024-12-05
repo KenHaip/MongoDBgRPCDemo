@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.example.grpcConnection";
+
+service MongoDBConnection {
+  rpc ExecuteCommand(stream CommandRequest) returns ( stream CommandExecutionResult) {}
+  rpc ReplicateOplog(stream ReplicateRequest) returns ( stream ReplicateResult) {}
+}
+
+message CommandRequest {
+  string command = 1;
+}
+
+message CommandExecutionResult {
+  int32 statusCode = 1;
+  string msg = 2;
+}
+
+message ReplicateRequest {
+  string msg = 1;
+  string lastOplogApplied = 2;
+}
+
+message ReplicateResult {
+  repeated Oplog oplogs = 1;
+}
+
+message Oplog {
+  string command = 1;
+  string oplogId = 2;
+}
+

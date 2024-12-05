@@ -1,0 +1,14 @@
+/Users/kenwang/Documents/code/gRPC/mongod_primary/src/main/java/com/example/Main.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/src/main/java/com/example/MongoDBServer.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/grpc-java/com/example/grpcConnection/MongoDBConnectionGrpc.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/CommandExecutionResult.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/CommandExecutionResultOrBuilder.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/CommandRequest.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/CommandRequestOrBuilder.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/DriverConnection.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/Oplog.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/OplogOrBuilder.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/ReplicateRequest.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/ReplicateRequestOrBuilder.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/ReplicateResult.java
+/Users/kenwang/Documents/code/gRPC/mongod_primary/target/generated-sources/protobuf/java/com/example/grpcConnection/ReplicateResultOrBuilder.java
